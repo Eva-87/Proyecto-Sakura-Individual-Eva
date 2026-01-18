@@ -1,0 +1,4 @@
+.btn-discover:hover:not(:disabled) {
+  background-color: #8f3f5a; /* un tono más oscuro */
+  border-color: #8f3f5a;
+}

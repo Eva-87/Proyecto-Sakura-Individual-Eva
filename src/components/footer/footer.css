@@ -1,0 +1,38 @@
+.footer {
+  background-color: #a85572;
+  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+
+.footer-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 19px;
+}
+
+.footer-contenido p {
+  margin: 0;
+  cursor: pointer;
+  opacity: 0.8;
+
+}
+
+
+.footer-contenido p:hover {
+  text-decoration: underline;
+}
+
+.footer-app img {
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+.footer-links-left,
+.footer-links-right {
+  display: flex;
+  gap: 15px;
+}

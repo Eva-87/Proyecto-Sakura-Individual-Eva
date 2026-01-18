@@ -1,0 +1,30 @@
+nav.navbar {
+  width: 100%;
+  padding: 15px 25px;
+  background-color: #efb8cb;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  border-bottom: 2px solid #A85572; /* borde abajo porque está arriba */
+
+  position: fixed;   /* navbar fijo */
+  top: 0;            /* pegado arriba */
+  left: 0;
+  z-index: 999;      /* que no quede tapado */
+}
+
+.navbar-logo {
+  width: 60px;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 50%; /* borde redondo */
+}
+
+.title-nav {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 3rem;
+  color: #A85572;
+  font-weight: bold;
+  -webkit-text-stroke: 1px white; /* trazo blanco */
+}

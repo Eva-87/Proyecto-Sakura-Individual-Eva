@@ -1,0 +1,131 @@
+/* 🌸 Contenedor general */
+.save-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 🌸 Títulos */
+.save-title,
+.history-title {
+  color: #b05ca5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 🌸 Formulario */
+.save-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 320px;
+  margin: 0 auto 40px auto;
+  background: #f8e8ef;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #d8b4e2;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.save-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d8b4e2;
+  font-size: 1rem;
+}
+
+/* 🌸 Botón guardar */
+.save-btn {
+  padding: 10px;
+  background: #f7b6d5;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.save-btn:hover {
+  background: #f59ac6;
+  transform: scale(1.03);
+}
+
+/* 🌸 Lista de lecturas */
+.records-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* 🌸 Tarjeta de cada lectura */
+.record-card {
+  background: #f8e8ef;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  border: 1px solid #d8b4e2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.record-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* 🌸 Nombre y fecha */
+.record-name {
+  color: #b05ca5;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.record-date {
+  color: #a45c7a;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+/* 🌸 Lista de cartas */
+.record-cards {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.record-card-item {
+  background: #f7b6d5;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #d8b4e2;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.delete-btn {
+  margin-top: 15px;
+  background: #ff6b6b;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.delete-btn:hover {
+  background: #e85a5a;
+  transform: scale(1.05);
+}
+
+.delete-btn:active {
+  transform: scale(0.97);
+}

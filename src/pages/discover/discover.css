@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+.container-meaning {
+  background-color: #B78B97;
+  color: #F5E8E5;
+  font-family: 'Cinzel Decorative', cursive;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title-reading {
+  padding: 25px;
+  text-align: center;
+  background: #F5E8E5;
+  color: #C45A7A; /* o el color que quieras */
+  font-family: pop;
+}
+
+.discover-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card-box {
+  width: 200px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-meaning {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.buttons-wrapper {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-save {
+  background: pink;
+  border: none;
+  border-radius: 6px;
+}
